@@ -1518,7 +1518,7 @@ img {
 }
 
 .ptb-130 {
-  padding: 130px 0;
+  padding: 60px 0;
 }
 
 .pd-t-135 {
@@ -6152,9 +6152,10 @@ a:hover, a:active {
 }
 .frontpage-banner-section.frontpage-banner-style-three {
   padding-top: 200px;
-  padding-bottom: 0px;
+  padding-bottom: 60px;
   position: relative;
   overflow: hidden;
+
 }
 .frontpage-banner-section.frontpage-banner-style-three::after {
   width: 960px;
@@ -10802,6 +10803,7 @@ a:hover, a:active {
 }
 .post .post-details {
   padding-top: 32px;
+  height: 250px;
 }
 @media only screen and (max-width: 991px) {
   .post .post-details {
@@ -13465,7 +13467,7 @@ a:hover, a:active {
 }
 
 .site-footer.style-one{
-  padding: 130px 0;
+  padding: 131px 0px 15px 0px;
   background-color: #12141c;
 }
 .site-footer .footer-widget-area .footer-widget-top .footer-widget-title-sm{
