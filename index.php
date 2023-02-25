@@ -3,101 +3,18 @@
 
 
 <head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-
-    <!-- Site Title -->
-    <title>NGT</title>
-
-    <!-- Site Fav Icon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico"/>
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;family=Roboto:wght@300;400;700&amp;display=swap"
-          rel="stylesheet">
-
-    <!-- Template CSS Styles -->
-    <link rel="stylesheet" id="colors" href="assets/css/style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <script src="assets/js/modernizr.min.js"></script>
+    <?php include('includes/css.php'); ?>
 </head>
 
 <body data-spy="scroll" data-offset="170" data-target=".navigation-area">
 
 <div class="page-wrapper">
     <!-- Header -->
-    <header class="site-header header-style-two">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-12">
-                    <div class="navigation-area">
-                        <!-- Site Branding -->
-                        <div class="site-branding">
-                            <a href="#">
-                                <img class="logo-dark" src="assets/images/logo-dark.png" style="width: 100px;height: 50px;" alt="Site Logo"/>
-                                <img class="logo-white" src="assets/images/logo-white.png" alt="Site Logo"/>
-                            </a>
-                        </div><!--  /.site-branding -->
-
-                        <!-- Site Navigation -->
-                        <div class="site-navigation">
-                            <nav class="navigation">
-                                <!-- Main Menu -->
-                                <div class="menu-wrapper">
-                                    <div class="menu-content">
-                                        <ul class="mainmenu">
-                                            <li>
-                                                <a class="nav-link" href="#">Home</a>
-                                            </li>
-                                            <li>
-                                                <a class="nav-link" href="#">Marketing</a>
-                                            </li>
-                                            <li>
-                                                <a class="nav-link" href="#">Services</a>
-                                            </li>
-                                            <li>
-                                                <a class="nav-link" href="#">About Us</a>
-                                            </li>
-                                            <li>
-                                                <a class="nav-link" href="#">Contact Us</a>
-                                            </li>
-
-                                        </ul> <!-- /.menu-list -->
-                                    </div> <!-- /.hours-content-->
-                                </div><!-- /.menu-wrapper -->
-                            </nav>
-                        </div><!--  /.site-navigation -->
-
-                        <div class="header-navigation-right">
-                            <div class="btn-sign-area">
-                                <a class="btn btn-primary rounded-pill" href="#">+852 3895 5666</a>
-                            </div>
-                            <!--~./ btn-sign-area ~-->
-                            <div class="hamburger-menus">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                        <!--~./ header-navigation-right ~-->
-                    </div><!-- /.navigation-area -->
-                </div><!-- /.col-12 -->
-            </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
-        <div class="mobile-sidebar-menu sidebar-menu">
-            <div class="overlaybg"></div>
-        </div>
-    </header>
+    <?php include('includes/header.php'); ?>
     <!-- End Site Header -->
 
     <!-- Sticky Header -->
-    <div id="sticky-header" class="active"></div>
+    <?php include ('includes/sticky.php');?>
     <!-- End Sticky Header ~-->
 
     <!-- Start Frontpage Banner Section -->
@@ -294,7 +211,9 @@
                             </h2>
                             <!-- /.entry-title -->
                             <p class="entry-description">
-                                Starting up a business with a decent registered address would enhance your company image to other people. With less than HK$100 per month, you would own a business address, with quality services.
+                                Starting up a business with a decent registered address would enhance your company image
+                                to other people. With less than HK$100 per month, you would own a business address, with
+                                quality services.
                             </p>
 
                         </div>
@@ -329,7 +248,10 @@
                             </h2>
                             <!-- /.entry-title -->
                             <p class="entry-description">
-                                Company Secretary is your best helper to deal with all the tedious administrative work with the Company Registry. We help you to ensure the company’s compliance to the regulations and perform the necessary tasks timely so that you might not face the unfavourable penalties.
+                                Company Secretary is your best helper to deal with all the tedious administrative work
+                                with the Company Registry. We help you to ensure the company’s compliance to the
+                                regulations and perform the necessary tasks timely so that you might not face the
+                                unfavourable penalties.
                             </p>
 
                             <!-- /.entry-meta -->
@@ -364,7 +286,9 @@
                             </h2>
                             <!-- /.entry-title -->
                             <p class="entry-description">
-                                Website is playing a more and more important roles nowadays in the virtual business world. Building a good website could attract more clients to your business and establish a good image of your business too.
+                                Website is playing a more and more important roles nowadays in the virtual business
+                                world. Building a good website could attract more clients to your business and establish
+                                a good image of your business too.
                             </p>
 
 
@@ -395,7 +319,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="section-title txt-center">
-                        <h2 class="title-main aos-item" data-aos="fade-up" data-aos-duration="400" data-aos-once="true"><span class="text-gradient"> Why </span> Startup</h2>
+                        <h2 class="title-main aos-item" data-aos="fade-up" data-aos-duration="400" data-aos-once="true">
+                            <span class="text-gradient"> Why </span> Startup</h2>
                     </div>
                     <!-- /.section-title -->
                 </div>
@@ -410,7 +335,9 @@
                         <div class="service-info">
                             <h3 class="title">Speedy delivery</h3>
                             <p class="entry-description">
-                                StartupCow understands that Hong Kong people are fast-paced and look for the most efficient services, so we take the most enthusiastic attitude towards each client case and meet their needs in the least time.
+                                StartupCow understands that Hong Kong people are fast-paced and look for the most
+                                efficient services, so we take the most enthusiastic attitude towards each client case
+                                and meet their needs in the least time.
                             </p>
                         </div>
                         <!-- /.service-info -->
@@ -429,7 +356,11 @@
                         <div class="service-info">
                             <h3 class="title">Broad service scope</h3>
                             <p class="entry-description">
-                                StartupCow knows that entrepreneurship covers a wide range of spectrums, so we are providing more and more services according to the demand. In addition to the company incorporation Hong Kong and company secretaries, we also provide supporting services such as Marketing, Information Technology, and Human Resources. Welcome to call us to inquire!
+                                StartupCow knows that entrepreneurship covers a wide range of spectrums, so we are
+                                providing more and more services according to the demand. In addition to the company
+                                incorporation Hong Kong and company secretaries, we also provide supporting services
+                                such as Marketing, Information Technology, and Human Resources. Welcome to call us to
+                                inquire!
                             </p>
                         </div>
                         <!-- /.service-info -->
@@ -446,7 +377,10 @@
                         <div class="service-info">
                             <h3 class="title">Professional team</h3>
                             <p class="entry-description">
-                                StartupCow team are experienced in setting up new business and daily operational management that could provide support for company incorporation Hong Kong and corporate management. We are not an ordinary secretarial company, but a secretarial company that could assist you to manage your business in a better and smarter way.
+                                StartupCow team are experienced in setting up new business and daily operational
+                                management that could provide support for company incorporation Hong Kong and corporate
+                                management. We are not an ordinary secretarial company, but a secretarial company that
+                                could assist you to manage your business in a better and smarter way.
                             </p>
                             <!--<p>
                                 Phasellus aliquam fermentum tincidunt. Duis accumsan
@@ -464,7 +398,7 @@
 
                 <!-- /.col-lg-3 -->
                 <div class="col-lg-3 col-md-6 aos-item" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
-                    <div class="service-item style-one text-center"  style="height: 550px;">
+                    <div class="service-item style-one text-center" style="height: 550px;">
                         <div class="service-icon">
                             <i class="icon fa-solid fa-money-check-dollar color-primary"></i>
                         </div>
@@ -472,7 +406,8 @@
                         <div class="service-info">
                             <h3 class="title">Reasonable pricing</h3>
                             <p class="entry-description">
-                                StartupCow understands the hardship of starting up a business. Therefore we strive to provide you with the best quality service at a reasonable price.
+                                StartupCow understands the hardship of starting up a business. Therefore we strive to
+                                provide you with the best quality service at a reasonable price.
                             </p>
 
                             <!--<p>
@@ -523,7 +458,11 @@
                                     <div class="client-testimonial">
                                         <div class="details">
                                             <p>
-                                                Our group members are mostly British and we had always been trying hard to start a business without any preparation in Hong Kong till we came across StartupCow. As our company incorporation started up as fast as in a week, we would like to show our appreciation to their services professionalism and guidance on company incorporation Hong Kong.
+                                                Our group members are mostly British and we had always been trying hard
+                                                to start a business without any preparation in Hong Kong till we came
+                                                across StartupCow. As our company incorporation started up as fast as in
+                                                a week, we would like to show our appreciation to their services
+                                                professionalism and guidance on company incorporation Hong Kong.
                                             </p>
                                         </div>
                                         <!-- /.details -->
@@ -549,7 +488,12 @@
                                     <div class="client-testimonial">
                                         <div class="details">
                                             <p>
-                                                I need to set up new company incorporations for my boss every once in a while. At StartupCow site, I am capable of going through every step of developing the entire company incorporation process under its kit set and administration services in one go. Everything would be posted to my workplace straightforwardly so I need not to go back and forth for sending and accepting the mail.
+                                                I need to set up new company incorporations for my boss every once in a
+                                                while. At StartupCow site, I am capable of going through every step of
+                                                developing the entire company incorporation process under its kit set
+                                                and administration services in one go. Everything would be posted to my
+                                                workplace straightforwardly so I need not to go back and forth for
+                                                sending and accepting the mail.
                                             </p>
                                         </div>
                                         <!-- /.details -->
@@ -575,7 +519,11 @@
                                     <div class="client-testimonial">
                                         <div class="details">
                                             <p>
-                                                I was underscript in the administration and company incorporation services of StartupCow at first.  But they are kindly informing timely for the recent and updated email update. If I am not free to pick up the message, they would instead take a photo of the mail and dispatch it to me at a rather cheap price.
+                                                I was underscript in the administration and company incorporation
+                                                services of StartupCow at first. But they are kindly informing timely
+                                                for the recent and updated email update. If I am not free to pick up the
+                                                message, they would instead take a photo of the mail and dispatch it to
+                                                me at a rather cheap price.
                                             </p>
                                         </div>
                                         <!-- /.details -->
@@ -600,9 +548,13 @@
                                 <div class="testimonial-item">
                                     <div class="client-testimonial">
                                         <div class="details">
-                                           <p>
-                                               Our companies have a range of subsidiaries serviced by several companies. Having said that, their administrations are either sluggish or with terrible quality. Our colleague introduced us to StartupCow, in the end. We are moving all our accounts here, the client experience is pleasant and they are all professional with reasonable prices.
-                                           </p>
+                                            <p>
+                                                Our companies have a range of subsidiaries serviced by several
+                                                companies. Having said that, their administrations are either sluggish
+                                                or with terrible quality. Our colleague introduced us to StartupCow, in
+                                                the end. We are moving all our accounts here, the client experience is
+                                                pleasant and they are all professional with reasonable prices.
+                                            </p>
                                         </div>
                                         <!-- /.details -->
                                         <div class="client-area">
@@ -626,9 +578,13 @@
                                 <div class="testimonial-item">
                                     <div class="client-testimonial">
                                         <div class="details">
-                                       <p>
-                                           I run an early childhood education centre and depend on the parents for personally referring the new customers. Through working with StartupCow, I launched a new company incorporation,  they also assisted me with doing google and facebook enrichment. Nowadays we are contacting a wider customer base and therefore the clients.
-                                       </p>
+                                            <p>
+                                                I run an early childhood education centre and depend on the parents for
+                                                personally referring the new customers. Through working with StartupCow,
+                                                I launched a new company incorporation, they also assisted me with doing
+                                                google and facebook enrichment. Nowadays we are contacting a wider
+                                                customer base and therefore the clients.
+                                            </p>
                                         </div>
                                         <!-- /.details -->
                                         <div class="client-area">
@@ -652,9 +608,13 @@
                                 <div class="testimonial-item">
                                     <div class="client-testimonial">
                                         <div class="details">
-                                          <p>
-                                              I would unequivocally prescribe StartupCow to any KOL/company incorporation who needs SEO/SEM. Going through a month working intimately with them, I saw an enormous development on the page. My page additionally hopped from the fourth page on Google Search to the first page.
-                                          </p>
+                                            <p>
+                                                I would unequivocally prescribe StartupCow to any KOL/company
+                                                incorporation who needs SEO/SEM. Going through a month working
+                                                intimately with them, I saw an enormous development on the page. My page
+                                                additionally hopped from the fourth page on Google Search to the first
+                                                page.
+                                            </p>
                                         </div>
                                         <!-- /.details -->
                                         <div class="client-area">
@@ -699,8 +659,10 @@
             <div class="row justify-content-center mrb-80">
                 <div class="col-md-10">
                     <div class="text-feature-block ms-mrb-50 text-center">
-                        <h4 class="sub-title color-primary aos-item" data-aos="fade-up" data-aos-duration="300" data-aos-once="true">Let's Collaborate</h4>
-                        <h2 class="title aos-item" data-aos="fade-up" data-aos-duration="400" data-aos-once="true">Contact 📧 Us</h2>
+                        <h4 class="sub-title color-primary aos-item" data-aos="fade-up" data-aos-duration="300"
+                            data-aos-once="true">Let's Collaborate</h4>
+                        <h2 class="title aos-item" data-aos="fade-up" data-aos-duration="400" data-aos-once="true">
+                            Contact 📧 Us</h2>
                     </div>
                 </div>
             </div>
@@ -738,7 +700,8 @@
                                 </div><!-- /.col-12 -->
                                 <div class="col-12 mrt-15">
                                     <button type="submit" class="btn btn-primary rounded-pill btn-gradient-three">Submit
-                                        Mail</button>
+                                        Mail
+                                    </button>
                                 </div>
                                 <!--./ col-lg-6 -->
                             </div><!-- /.row -->
@@ -750,131 +713,15 @@
     </div>
     <!--~~./ End Contact Block ~~-->
 
-    <!-- Start Call to Action Block -->
-    <section class="section-call-to-action pd-0">
-        <div class="container">
-            <div class="call-to-action style-two bg-primary">
-                <div class="row position-relative">
-                    <div class="col-lg-7 lg-txt-left md-txt-center sm-txt-center xs-txt-center">
-                        <h4 class="call-to-title w-700 color-white aos-item" data-aos="fade-up" data-aos-duration="300"
-                            data-aos-once="true">Let's talk about your next project</h4>
-                        <h6 class="sub-title w-400 text-uppercase color-white aos-item" data-aos="fade-up"
-                            data-aos-duration="400" data-aos-once="true">Ready to Download</h6>
-                        <p class="color-white aos-item" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
-                            No Coding required for build your page. Jura delivers everything.</p>
-                        <!-- /.call-to-title -->
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="lg-txt-right md-txt-center sm-txt-center xs-txt-center aos-item xs-mrt-20 sm-mrt-20"
-                             data-aos="fade-right" data-aos-duration="600" data-aos-once="true">
-                            <a class="btn btn-primary btn-white btn-wide rounded-pill" href="#">Start a
-                                Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--~~./ End Call to Action Block ~~-->
 
     <!-- Start Site Footer -->
-    <footer class="site-footer style-one mt-5">
-        <!-- Start Footer Widget Area -->
-        <div class="footer-widget-area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-12 aos-item" data-aos="fade-up" data-aos-duration="300"
-                         data-aos-once="true">
-                        <div class="footer-widget-top md-txt-left lg-txt-left xs-txt-center sm-txt-center">
-                            <h2 class="footer-widget-title-sm color-primary">Get in Touch</h2>
-                            <h4 class="footer-widget-title">Need help on a project? Get in touch today!</h4>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-12 aos-item" data-aos="fade-up" data-aos-duration="400"
-                         data-aos-once="true">
-                        <div class="footer-widget-btn md-txt-right lg-txt-right xs-txt-center sm-txt-center">
-                            <a class="btn btn-primary rounded-pill btn-lg" href="#">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--~./ End Footer Widget Area ~-->
-
-        <!-- Start Footer Bottom Area -->
-        <div class="footer-bottom-area style-one">
-            <div class="container">
-                <div class="footer-copyright">
-                    <div class="row align-items-center">
-                        <div class="col-xl-5 col-lg-5 col-md-5 col-12 aos-item" data-aos="fade-up"
-                             data-aos-duration="500" data-aos-once="true">
-                            <div class="footer-copyright-text md-txt-left lg-txt-left xs-txt-center sm-txt-center">
-                                <p>© 2022 <span class="color-primary">NGT</span>, All Right Receved.</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-7 col-lg-7 col-md-7 col-12 aos-item" data-aos="fade-up"
-                             data-aos-duration="600" data-aos-once="true">
-                            <div class="footer-copyright-nav md-txt-right lg-txt-right xs-txt-center sm-txt-center md-mrt-0 xs-mrt-20 sm-mrt-20">
-                                <a href="#">Support</a>
-                                <a href="#">Privacy policy</a>
-                                <a href="#">Terms and conditions</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-copyright-logo-area">
-                    <div class="row align-items-center">
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-12 aos-item" data-aos="fade-up"
-                             data-aos-duration="700" data-aos-once="true">
-                            <div class="footer-copyright-logo mrt-30 md-txt-left lg-txt-left xs-txt-center sm-txt-center">
-                                <a href="#">
-                                    <img src="assets/images/footer-logo-light.png" alt="Logo"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-lg-8 col-md-8 col-12 aos-item" data-aos="fade-up"
-                             data-aos-duration="800" data-aos-once="true">
-                            <div class="footer-copyright-social md-txt-right lg-txt-right xs-txt-center sm-txt-center md-mrt-0 mrt-30">
-                                <a href="#"><i class="icofont-facebook"></i></a>
-                                <a href="#"><i class="icofont-twitter"></i></a>
-                                <a href="#"><i class="icofont-dribbble"></i></a>
-                                <a href="#"><i class="icofont-behance"></i></a>
-                                <a href="#"><i class="icofont-pinterest"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--~./ End Footer Bottom Area ~-->
-
-
-    </footer>
+<?php include ('includes/footer.php');?>
     <!--~./ End Site Footer ~-->
 </div>
 <!--~~./ End Page Wrapper ~~-->
 
 <!-- All The JS Files  -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/aos.js"></script>
-<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-<script src="assets/js/simple-scrollbar.min.js"></script>
-<script src="assets/js/background-parallax.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/theia-sticky-sidebar.min.js"></script>
-<script src="assets/js/ResizeSensor.min.js"></script>
-<script src="assets/js/swiper.min.js"></script>
-<script src="assets/js/isotope.pkgd.min.js"></script>
-<script src="assets/js/packery-mode.pkgd.min.js"></script>
-<script src="assets/js/scrolla.jquery.min.js"></script>
-<script src="assets/js/odometer.min.js"></script>
-<script src="assets/js/parallaxie.min.js"></script>
-<script src="assets/js/isInViewport.jquery.js"></script>
-<script src="assets/js/main.js"></script>
-<!-- All The JS Files  -->
+<?php include ('includes/js.php');?>
 </body>
 
 
