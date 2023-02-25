@@ -25,13 +25,13 @@
                                             <a class="nav-link" href="marketing.php">Marketing</a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="#">Services</a>
+                                            <a class="nav-link" href="">Services</a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="#">About Us</a>
+                                            <a class="nav-link" href="about.php">About Us</a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="#">Contact Us</a>
+                                            <a class="nav-link" href="contact.php">Contact Us</a>
                                         </li>
 
                                     </ul> <!-- /.menu-list -->
